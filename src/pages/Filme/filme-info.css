@@ -1,0 +1,37 @@
+.filme-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.filme-info img{
+    border-radius: 10px;
+}
+
+.filme-info button{
+    margin-left: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+    padding: 12px;
+    transition: all 0.5s;
+}
+
+.filme-info a{
+    text-decoration: none;
+    color: brown;
+}
+
+.filme-info a:hover{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.filme-info button:hover{
+    background-color: brown;
+    color: #fff;
+}
